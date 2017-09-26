@@ -1,17 +1,22 @@
-# NSFW_Detection
-ABOUT:
+# NSFW_DETECTION
+
+# ABOUT:
 
 To check if the input video contains Nudity or any other NSFW content and label them.
 
-DEPENDENCIES:
+
+# DEPENDENCIES:
 
 Tensorflow,Python,Numpy,Opencv
 
-Model:
+
+# Model:
 
 Small Alex net.
 
-Usage:
+
+# Usage:
+
 1.Unzip model8
 
 2.Open constants.py
@@ -24,7 +29,8 @@ Usage:
 
 6.python NSFW_Predictor.py 
 
-OUTPUT:
+
+# OUTPUT:
 
 1.The model checks every 50 frames for NSFW content.
 
@@ -34,7 +40,8 @@ OUTPUT:
 
 4.The NSFW Score calculated using (NSFW_Count/Total_frames). # 1.0 MEANS 100% Nudity, 0.0 MEANS 0% Nudity
 
-References:
+
+# References:
 
 http://blog.clarifai.com/what-convolutional-neural-networks-see-at-when-they-see-nudity/
 
