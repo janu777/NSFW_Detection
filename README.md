@@ -27,7 +27,7 @@ Small Alex net.
 
 5.Open terminal
 
-6.python NSFW_Predictor.py 
+6.RUN: python NSFW_Predictor.py 
 
 
 # OUTPUT:
@@ -36,7 +36,7 @@ Small Alex net.
 
 2.Shows the processed frame with its label. # LABELS = [NOT NUDE, NUDE, UNKNOWN]
 
-3.prints Video Summary showing VIDEO_NUMBER,NAME,NUMBER_OF_PROCESSED_FRAMES,NSFW_SCORE
+3.Prints video summary showing VIDEO_NUMBER,NAME,NUMBER_OF_PROCESSED_FRAMES,NSFW_SCORE
 
 4.The NSFW Score calculated using (NSFW_Count/Total_frames). # 1.0 MEANS 100% Nudity, 0.0 MEANS 0% Nudity
 
